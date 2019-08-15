@@ -126,7 +126,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh13766
+  m_Name: pb_Mesh13756
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -296,15 +296,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4095421535428852, guid: 36d283747c2ae07499c4c1734767be03, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.95
+      value: 6.7
       objectReference: {fileID: 0}
     - target: {fileID: 4095421535428852, guid: 36d283747c2ae07499c4c1734767be03, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.171
+      value: 1.171
       objectReference: {fileID: 0}
     - target: {fileID: 4095421535428852, guid: 36d283747c2ae07499c4c1734767be03, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.9
+      value: 5.57
       objectReference: {fileID: 0}
     - target: {fileID: 4095421535428852, guid: 36d283747c2ae07499c4c1734767be03, type: 3}
       propertyPath: m_LocalRotation.x
@@ -503,8 +503,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 2027569360}
-  offset: {x: 0, y: 0, z: 0}
-  middle: 0.5
+  offset: {x: 0, y: -1, z: 0}
+  middle: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -7040,7 +7040,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2027569358
 MeshRenderer:
@@ -7049,7 +7049,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2027569356}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
