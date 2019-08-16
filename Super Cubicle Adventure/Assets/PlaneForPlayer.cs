@@ -6,7 +6,7 @@ public class PlaneForPlayer : MonoBehaviour
 {
 
     /* invisible plane on the player's level, for raycasting purposes. 
-     * Incredibly hacky way to do it, as it required putting the player on "Transparent FX" layer. 
+     * Incredibly hacky way to do it, as it required putting the player on "playerLayer" layer. 
      * Everything seems to work, but if there's wierd issues it may be from this
      */
 
