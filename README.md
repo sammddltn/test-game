@@ -2,8 +2,8 @@
 
 # using Unity version 2019.2.0f1
 
--possible issues:
+possible issues:
 
 1. maybe make a dotted line from the cursor to the player so making shots is easier?
 
-2. the raycast currently collides with a plane underneath the map, making it collide with a plane created on the y axis of the player would mean we could have controls working even if the camera angle changed.
+2. the raycast currently collides with a plane underneath the map, making it collide with an invisible plane created on the y axis of the player (automatically on Update) would mean we could have controls working even if the camera angle changed.
