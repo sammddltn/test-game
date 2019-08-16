@@ -9,6 +9,7 @@ public class FollowPlayer : MonoBehaviour
     public Vector3 offset;
     public float middle;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +19,7 @@ public class FollowPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        int layerMask = 1 << 8;
         transform.position = player.position + offset;
 
         {
@@ -26,7 +28,7 @@ public class FollowPlayer : MonoBehaviour
             RaycastHit hit;
 
             //making the chair swivel so it's pointing at the camera
-            if (Physics.Raycast(ray, out hit))
+            if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
             {
                 Vector3 temp = new Vector3(hit.point.x, (player.position.y + offset.y), hit.point.z);
                 transform.LookAt(temp);
