@@ -23,15 +23,16 @@ public class LookAtYAxis : MonoBehaviour
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
-        //making the chair swivel so it's pointing at the camera
+        
         if (Physics.Raycast(ray, out hit))
         {
-            rb.transform.LookAt(hit.point);
+            //making the ball swivel so it's pointing at the camera, will be needed if rb.AddExplosionForce is changed to something non-directional
+            //rb.transform.LookAt(hit.point);
 
-            //applying force to chair, angle and power depend on how close to it you click
+            //applying force to ball, angle and power depend on how close to it you click
             if (Input.GetMouseButtonDown(0))
             {
-                rb.AddExplosionForce(speed, hit.point, distance, 0);
+                rb.AddExplosionForce(speed, new Vector3(hit.point.x, rb.position.y, hit.point.z), distance, 0);
             }
 
         }

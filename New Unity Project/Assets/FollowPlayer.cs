@@ -28,7 +28,7 @@ public class FollowPlayer : MonoBehaviour
             //making the chair swivel so it's pointing at the camera
             if (Physics.Raycast(ray, out hit))
             {
-                Vector3 temp = new Vector3(hit.point.x, middle, hit.point.z);
+                Vector3 temp = new Vector3(hit.point.x, (player.position.y + offset.y), hit.point.z);
                 transform.LookAt(temp);
 
 
