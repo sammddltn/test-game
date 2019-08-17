@@ -33,6 +33,7 @@ public class FollowPlayer : MonoBehaviour
             {
                 Vector3 temp = new Vector3(hit.point.x, (player.position.y + offset.y), hit.point.z);
                 transform.LookAt(temp);
+                transform.Rotate(0, 180, 0);
 
 
             }
