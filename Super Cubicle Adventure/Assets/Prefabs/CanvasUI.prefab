@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -37.98999, y: -221.6}
+  m_AnchoredPosition: {x: -1.9899902, y: 285.9}
   m_SizeDelta: {x: 89.275, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3949812113810927028
@@ -191,6 +191,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PowerBar
       objectReference: {fileID: 0}
+    - target: {fileID: 8373887700317801656, guid: a067f99737b80a347af5fec99ef27b22,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8373887700927395614, guid: a067f99737b80a347af5fec99ef27b22,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -249,12 +254,12 @@ PrefabInstance:
     - target: {fileID: 8373887700927395614, guid: a067f99737b80a347af5fec99ef27b22,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -35
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8373887700927395614, guid: a067f99737b80a347af5fec99ef27b22,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -218.5
+      value: 289
       objectReference: {fileID: 0}
     - target: {fileID: 8373887700927395614, guid: a067f99737b80a347af5fec99ef27b22,
         type: 3}
@@ -295,11 +300,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8373887700317801656, guid: a067f99737b80a347af5fec99ef27b22,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a067f99737b80a347af5fec99ef27b22, type: 3}
