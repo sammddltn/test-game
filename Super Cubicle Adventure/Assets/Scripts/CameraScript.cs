@@ -10,6 +10,8 @@ public class CameraScript : MonoBehaviour
     public Rigidbody rb;
     public GameObject cam;
 
+    public double timeToZoomOut;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +21,7 @@ public class CameraScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (rb.velocity.magnitude > 0.1)
+        if (rb.velocity.magnitude > timeToZoomOut)
         {
             cam.SetActive(true);
         }
