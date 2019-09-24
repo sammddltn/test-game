@@ -1,6 +1,6 @@
 # Super Cubicle Adventure
 
-# using Unity version 2019.2.0f1
+# using Unity version version 2019.1.6f1
 
 possible issues:
 
