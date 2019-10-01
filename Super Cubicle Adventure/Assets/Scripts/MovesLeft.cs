@@ -31,14 +31,14 @@ public class MovesLeft : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButtonUp(0) && moves > 0)
         {
             moves--;
             movesLeft.text = moves.ToString();
         }
 
 
-        if (moves <= 0)
+        if (moves <= 0 && player.activeSelf)
         {
             StartCoroutine(Restart());
         }
