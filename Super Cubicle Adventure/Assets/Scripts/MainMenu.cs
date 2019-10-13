@@ -16,8 +16,6 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(scene.name);
     }
 
-    //
-
 
 
 }
