@@ -8,19 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 72b9509dc7cb3784393de01a0076f933
-  - enabled: 0
-    path: Assets/Scenes/OldLevels/ModernOffice_Interior_SampleLayout 1.unity
+  - enabled: 1
+    path: Assets/Scenes/ModernOffice_Interior_SampleLayout 1.unity
     guid: 88212735dadb3fe4082c3c5fad51ce7a
-  - enabled: 0
-    path: Assets/Scenes/OldLevels/2nd level.unity
+  - enabled: 1
+    path: Assets/Scenes/level02.unity
+    guid: 27140316ae3ddd347bb2cea48968a55c
+  - enabled: 1
+    path: Assets/Scenes/2nd level.unity
     guid: 52da71886704e7b4a82cd0e72c20a237
-  - enabled: 1
-    path: Assets/Scenes/TutorialLevel.unity
-    guid: 28f7cc37b20401445a41a9851e5d6460
-  - enabled: 1
-    path: Assets/Scenes/Level1.unity
-    guid: 5884d1f00c640d7449fe5451f0f33d1b
-  - enabled: 1
-    path: Assets/Scenes/Game Ending.unity
-    guid: 8b43fa2b6a7735d4999b8114333fe73e
   m_configObjects: {}
