@@ -28,8 +28,7 @@ public class LookAtYAxis : MonoBehaviour
     {
         int moves = int.Parse(movesLeft.text);
 
-        if (moves > 0)//if there are moves left
-        {
+
 
             int layerMask = 1 << 8;
             force = (speed * slider.value);
@@ -45,6 +44,8 @@ public class LookAtYAxis : MonoBehaviour
 
                 //applying force to ball, angle and power depend on how close to it you click
                 if (Input.GetMouseButtonUp(0))
+                {
+                if (moves > 0)//if there are moves left
                 {
                     //rb.AddForce(transform.forward * -force, ForceMode.VelocityChange);
                     rb.AddExplosionForce(force, new Vector3(hit.point.x, rb.position.y, hit.point.z), 9999, 0);

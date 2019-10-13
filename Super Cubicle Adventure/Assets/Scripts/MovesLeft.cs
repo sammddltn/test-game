@@ -17,7 +17,10 @@ public class MovesLeft : MonoBehaviour
     IEnumerator Restart()
     {
         yield return new WaitForSeconds(3);
-        restartPanel.SetActive(true);
+        if (moves <= 0 && player.activeSelf)
+        {
+            restartPanel.SetActive(true);
+        }
         player.SetActive(false);
     }
 
