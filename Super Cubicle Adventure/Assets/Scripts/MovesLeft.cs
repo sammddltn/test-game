@@ -14,6 +14,7 @@ public class MovesLeft : MonoBehaviour
     public GameObject player;
     public Rigidbody rb;
     public Slider slider;
+     
 
     IEnumerator Restart()
     {
@@ -37,6 +38,7 @@ public class MovesLeft : MonoBehaviour
     {
         if (Input.GetMouseButtonUp(0) && moves > 0 && (slider.value > .2))
         {
+            Debug.Log("Movesleft");
             moves--;
             movesLeft.text = moves.ToString();
         }
