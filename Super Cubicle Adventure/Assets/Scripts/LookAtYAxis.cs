@@ -24,7 +24,7 @@ public class LookAtYAxis : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         int moves = int.Parse(movesLeft.text);
 
@@ -45,7 +45,7 @@ public class LookAtYAxis : MonoBehaviour
                 //applying force to ball, angle and power depend on how close to it you click
                 if (Input.GetMouseButtonUp(0))
                 {
-                if (moves > 0)//if there are moves left
+                if (moves > 0 && (slider.value > .2))//if there are moves left and the mouse button was held down for longer than 1/10th second 
                 {
                     //rb.AddForce(transform.forward * -force, ForceMode.VelocityChange);
                     rb.AddExplosionForce(force, new Vector3(hit.point.x, rb.position.y, hit.point.z), 9999, 0);

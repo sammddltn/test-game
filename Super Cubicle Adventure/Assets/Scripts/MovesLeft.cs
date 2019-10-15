@@ -13,6 +13,7 @@ public class MovesLeft : MonoBehaviour
     public GameObject restartPanel;
     public GameObject player;
     public Rigidbody rb;
+    public Slider slider;
 
     IEnumerator Restart()
     {
@@ -34,7 +35,7 @@ public class MovesLeft : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonUp(0) && moves > 0)
+        if (Input.GetMouseButtonUp(0) && moves > 0 && (slider.value > .2))
         {
             moves--;
             movesLeft.text = moves.ToString();
