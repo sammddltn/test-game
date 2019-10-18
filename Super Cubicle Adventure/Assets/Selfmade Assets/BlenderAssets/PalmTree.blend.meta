@@ -6,17 +6,7 @@ ModelImporter:
   - first:
       74: 1989289236423521904
     second: Default Take
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Leaves
-    second: {fileID: 2100000, guid: 1a4d3954a3e7b81458de81edbd31aed9, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material_001
-    second: {fileID: 2100000, guid: 9024988ebfff6ea48a20e77416cedad3, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
