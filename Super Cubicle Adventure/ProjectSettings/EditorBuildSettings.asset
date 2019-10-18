@@ -15,6 +15,29 @@ EditorBuildSettings:
     path: Assets/Scenes/level02.unity
     guid: 27140316ae3ddd347bb2cea48968a55c
   - enabled: 1
+<<<<<<< Updated upstream
     path: Assets/Scenes/2nd level.unity
     guid: 52da71886704e7b4a82cd0e72c20a237
+=======
+    path: Assets/Scenes/Level2.unity
+    guid: 6a5b7c3da70a50f4daa82297f71dcf01
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: eadebf649c9de2347901928caeb1ffcc
+  - enabled: 0
+    path: Assets/Scenes/Level4.unity
+    guid: d2bbaaa3ca5e36a468d4ef8002ab1b2d
+  - enabled: 1
+    path: Assets/Scenes/Level5.unity
+    guid: bfc1595d3603eba46a8e12b6c71c8a9e
+  - enabled: 1
+    path: Assets/Scenes/level06.unity
+    guid: 041f8920236314248bc2c86c950ed6f4
+  - enabled: 1
+    path: Assets/Scenes/level07.unity
+    guid: fdd8b6b87d9ee6349b2b8e160bf8d9da
+  - enabled: 1
+    path: Assets/Scenes/Game Ending.unity
+    guid: 8b43fa2b6a7735d4999b8114333fe73e
+>>>>>>> Stashed changes
   m_configObjects: {}
